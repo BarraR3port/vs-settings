@@ -1,0 +1,54 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+	"languages": {
+		"TypeScript": {
+			"code_actions_on_format": {
+				"source.organizeImports": true
+			},
+			"show_inline_completions": true
+		},
+		"TSX": {
+			"show_inline_completions": true
+		}
+	},
+	"hard_tabs": true,
+	"assistant": {
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-4o"
+		},
+		"version": "2"
+	},
+	"tab_size": 4,
+	"ui_font_size": 16,
+	"buffer_font_size": 16,
+	"autosave": "on_focus_change",
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "Aura Dark"
+	},
+	"buffer_font_family": "JetBrains Mono",
+	"terminal": {
+		"font_family": "JetBrains Mono"
+	},
+	"formatter": {
+		"language_server": {
+			"name": "biome"
+		}
+	},
+	"code_actions_on_format": {
+		"source.fixAll.biome": true,
+		"source.organizeImports.biome": true
+	},
+	"features": {
+		"inline_completion_provider": "supermaven"
+	}
+}
